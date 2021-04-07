@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <Button
+        android:id="@+id/Singleplayer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="133dp"
+        android:text="Singleplayer" />
+
+    <Button
+        android:id="@+id/Multiplayer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Singleplayer"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="158dp"
+        android:layout_marginTop="49dp"
+        android:onClick="multiplayerClick"
+        android:text="Multiplayer" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="163dp"
+        android:text="Tic-Tac-Toe" />
+
+
+</RelativeLayout>
