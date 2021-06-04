@@ -7,6 +7,11 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
+// Todo: Main Page UI
+// Todo: Game UI
+//Todo: Add Restart button
+//Todo: Add score in Multiplayer
+
 public class MainActivity extends Activity {
     private Button Singleplayer;
 
